@@ -11,11 +11,11 @@ public class CrossOriginApplication {
 		SpringApplication.run(CrossOriginApplication.class, args);
 	}
 
-	@Bean
+	/*@Bean
 	public FilterRegistrationBean registrationBean(){
 		FilterRegistrationBean bean = new FilterRegistrationBean();
 		bean.addUrlPatterns("/*");
-		bean.setFilter(new CrosFilter());
+		bean.setFilter(new CrossFilter());
 		return bean;
-	}
+	}*/
 }
